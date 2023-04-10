@@ -1,49 +1,89 @@
-<div class="moon"></div>
-<div class="moon__crater moon__crater1"></div>
-<div class="moon__crater moon__crater2"></div>
-<div class="moon__crater moon__crater3"></div>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>СКАМ ОТ АЛЕКСАНДРА ПЕНЬ-БОРОДА</title>
 
-<script src="/script.js"></script>
-<link rel="stylesheet" href="style.css">
+  <style type="text/css">
+    body {
+      padding: 30px 20px;
+      font-family: -apple-system, BlinkMacSystemFont,
+        "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+        "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+      color: #727272;
+      line-height: 1.6;
+    }
 
-<div class="star star1"></div>
-<div class="star star2"></div>
-<div class="star star3"></div>
-<div class="star star4"></div>
-<div class="star star5"></div>
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+    }
 
-<div class="error">
-  <div class="error__title">Пошёл</div>
-  <div class="error__subtitle">Hахуй</div>
-  <div class="error__description">Ебать ты долбоёб конечно</div>
-  <button class="error__button error__button--active">ПОЙТИ</button>
-  <button class="error__button">НАХУЙ</button>
-</div>
+    h1 {
+      margin: 0 0 40px;
+      font-size: 60px;
+      line-height: 1;
+      color: #252427;
+      font-weight: 700;
+    }
 
-<div class="astronaut">
-  <div class="astronaut__backpack"></div>
-  <div class="astronaut__body"></div>
-  <div class="astronaut__body__chest"></div>
-  <div class="astronaut__arm-left1"></div>
-  <div class="astronaut__arm-left2"></div>
-  <div class="astronaut__arm-right1"></div>
-  <div class="astronaut__arm-right2"></div>
-  <div class="astronaut__arm-thumb-left"></div>
-  <div class="astronaut__arm-thumb-right"></div>
-  <div class="astronaut__leg-left"></div>
-  <div class="astronaut__leg-right"></div>
-  <div class="astronaut__foot-left"></div>
-  <div class="astronaut__foot-right"></div>
-  <div class="astronaut__wrist-left"></div>
-  <div class="astronaut__wrist-right"></div>
-  
-  <div class="astronaut__cord">
-    <canvas id="cord" height="500px" width="500px"></canvas>
+    h2 {
+      margin: 100px 0 0;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      color: #A299AC;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 16px;
+      margin: 1em 0;
+    }
+
+    .go-back a {
+      display: inline-block;
+      margin-top: 3em;
+      padding: 10px;
+      color: #1B1A1A;
+      font-weight: 700;
+      border: solid 2px #e7e7e7;
+      text-decoration: none;
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .go-back a:hover {
+      border-color: #1B1A1A;
+    }
+
+    @media screen and (min-width: 768px) {
+      body {
+        padding: 50px;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      h1 {
+        font-size: 48px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <a href="/" class="brand"><img src="http://via.placeholder.com/360x200?text=Your+Logo" width="180" height="100"></a>
+
+    <h2>Пошёл</h2>
+    <h1>Нахуй</h1>
+
+    <p>Пиздец не правда ли</p>
+
+    <span class="go-back"><a href="/">Пойти нахуй</a></span>
   </div>
-  
-  <div class="astronaut__head">
-    <canvas id="visor" width="60px" height="60px"></canvas>
-    <div class="astronaut__head-visor-flare1"></div>
-    <div class="astronaut__head-visor-flare2"></div>
-  </div>
-</div>
+
+</body>
+</html>
